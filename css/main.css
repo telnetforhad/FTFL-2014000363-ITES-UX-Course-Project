@@ -1,0 +1,400 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between images, videos, audio and canvas and the bottom of
+ * their containers: h5bp.com/i/440
+ */
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browse Happy prompt
+   ========================================================================== */
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+.clear{clear:both;}
+.header{margin-bottom:30px; position:fixed;width:100%;height:100px;background:#ffffff;z-index:999;}
+.wrapper{position:relative;z-index:0;top:116px;}
+
+.logo{background:white;}
+.input-group{margin-top:8px;margin-left:258px;}
+.menu{background:#00c0be;width:100%;}
+.pill{test-align:center;}
+.menu_wrapper{background:#00c0be; margin-bottom:30px;margin-top:15px;}
+.company_add,
+.slider_wrapper{padding:0px;margin-left: -2px;}
+.slide1 img{width:868px; height:446px !important}
+.carousel-control.left {background:none;}
+.carousel-control.right {background:none;}
+.slider{
+  margin-left: 17px;
+}
+.brand{background:#f54f78;}
+.brand h4{color:white;padding-left:30px;}
+.star{color:#f54f78}
+.left{float:left;}
+.right{float:left;padding-top:40px;}
+.activation a:hover{color:#f5527d;background:#00c0be;}
+
+.New{background:#00c0be;width:98%;}
+.New h4{color:white;padding-left:30px;}
+.col-sm-6{color:#f54f78;}
+.dollar{}
+.detail{margin-left:70%;}
+.dollar h4{color:#f54f78;}
+.box{background:#00c0be;color:#ffffff;}
+.cap h4{color:#919091}
+.cap p{color:#898889:}
+.banner_add {
+  width: 847px;
+}
+
+.footer{margin-top:30px;}
+h4{color:#f54f78;}
+.about a{color:#9c9a9c;}
+.about a:hover{color:#f5527d}
+.why a{color:#9c9a9c;}
+.why a:hover{color:#f5527d}
+.account a{color:#9c9a9c;}
+.account a:hover{color:#f5527d}
+
+.serial{width:262px;height:514px;text-align:center;border:1px solid #aeacad;}
+.first{margin:20px;}
+.second{margin:20px;}
+.third{margin:20px;}
+.caption p{font-weight:300;}
+.taka{}
+
+.first img{width:97px;height:114px;}
+.second img{width:97px;height:114px;}
+.third img{width:97px;height:114px;}
+
+
+
+/*! start of diet and energy */
+.home{border:1px solid #929191}
+.home ul{margin-bottom:1px;}
+.home ul li{list-style:none;display:inline-block;}
+.home ul li a{text-decoration:none;}
+h6{font-size:15px}
+
+.selection {
+  padding: 13px 32px;
+  text-align: right;
+}
+.shopBy h4{padding-left:10px;}
+.shop {background:#f54f78;padding-left:15px;}
+.shop h4{color:#ffffff;}
+.price{padding-left:}
+.price a:hover{color:#f54f78;}
+.price h3{padding-left:15px;}
+.price p{padding-left:30px;}
+.menufacture h3{padding-left:15px;}
+.menufacture a:hover{color:#f54f78;}
+.menufacture p{padding-left:30px;}
+span{color:#f54f78;}
+.color{color:}
+.graph{text-align:center;padding-left:25px;padding-right:25px;}
+.button{display:block;line-height:25px}
+.vote{color:#ffffff;background:#00c0be;}
+.img img{width:56%;}
+
+
+
+		/** start page of body care*/
+
+.file_1 {margin:15px;}
+.picture{border:1px solid #929091;}
+.picture  img{padding:10px;padding-left:45px;}
+.thirty h4{color:#f54f78;}
+.add{background:#00c0be;}
+.add h4{color:#fffff;}
+.add h4:hover{background:#f54f78;color:#ffffff}
+.learn{background:#00c0be;width:28%}
+.learn h5:hover{background:#f54f78;color:#ffffff}
+.height{height:135px}
+.shop1{padding-top:25px;padding-bottom:25px}
+.radiobutton{padding-top:25px;padding-bottom:25px}
+.roll{padding-top:25px;}
+.cute{padding-top:10px}
+.voter{padding-top:40px}
+	/** dummy**/
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Image replacement
+ */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
